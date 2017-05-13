@@ -1,5 +1,5 @@
 function getTriangleArea(a, h) {
-	if ((!a && a <= 0) || (!h || h <= 0)) {
+	if ((!a || a <= 0) || (!h || h <= 0)) {
   	return "Nieprawidłowe dane";
   }
   
